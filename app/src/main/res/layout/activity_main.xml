@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="30dp"
+    style="@style/CardView.Dark">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:text="Invoice Generator"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Issuer_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Issuer's Info"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#1D4669"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:onClick="onIFClick"/>
+
+    <Button
+        android:id="@+id/btn_create_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create pdf"
+        android:layout_marginTop="290dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#1D4669"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:onClick="onCreatepdfClick"/>
+
+    <Button
+        android:id="@+id/Recipent_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipient's info"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#1D4669"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:onClick="onRIClick"/>
+
+    <Button
+        android:id="@+id/Expense_List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expense List"
+        android:layout_marginTop="220dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#1D4669"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:onClick="onELClick"/>
+
+    <Button
+        android:id="@+id/upload_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload PDF"
+        android:layout_marginTop="360dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#1D4669"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:onClick="onUploadClick"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
